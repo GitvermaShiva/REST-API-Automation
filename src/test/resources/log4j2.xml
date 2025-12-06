@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+    <!-- Global Properties -->
+    <Properties>
+        <Property name="basePath">./Logs</Property>
+    </Properties>
+
+    <!-- Appenders -->
+    <Appenders>
+
+        <!-- Console Logging -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- File Logging (Rolling File) -->
+        <RollingFile
+                name="File"
+                fileName="${basePath}/automation.log"
+                filePattern="${basePath}/automation-%d{yyyy-MM-dd-HH-mm-ss}.log.gz">
+
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+
+            <!-- Rotate on 50 MB -->
+            <SizeBasedTriggeringPolicy size="50MB"/>
+
+            <!-- Keep max 10 log files -->
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+    </Appenders>
+
+
+    <!-- Loggers -->
+    <Loggers>
+
+        <!-- Root Logger -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,281 @@
+11:21:23.017 [main] INFO  api.test.UserTests - =================User Model Test Suite Started=====================
+11:21:23.033 [main] INFO  api.test.UserTests - ===== Initializing Test Data =====
+11:21:23.238 [main] INFO  api.test.UserTests - Generated Test User Details:-
+11:21:23.238 [main] INFO  api.test.UserTests - ID: 4135
+11:21:23.238 [main] INFO  api.test.UserTests - Username: user97495
+11:21:23.238 [main] INFO  api.test.UserTests - Email: armando.johns@yahoo.com
+11:21:23.238 [main] INFO  api.test.UserTests - ====================================
+11:21:23.253 [main] INFO  api.test.UserTests - ===== Starting Create User Test =====
+11:21:23.253 [main] INFO  api.test.UserTests - Sending POST request to create user...
+11:21:27.667 [main] INFO  api.test.UserTests - POST Response Code: 200
+11:21:27.667 [main] INFO  api.test.UserTests - User successfully created in PetStore API.
+11:21:27.667 [main] INFO  api.test.UserTests - Waiting 1 second for data persistence...
+11:21:28.670 [main] INFO  api.test.UserTests - ===== Create User Test Completed =====
+11:21:28.686 [main] INFO  api.test.UserTests - ===== Starting Get User Test =====
+11:21:28.686 [main] INFO  api.test.UserTests - Fetching User by username: user97495
+11:21:29.954 [main] INFO  api.test.UserTests - GET Response Code: 200
+11:21:29.954 [main] INFO  api.test.UserTests - User fetch successful.
+11:21:29.954 [main] INFO  api.test.UserTests - ===== Get User Test Completed =====
+11:21:29.954 [main] INFO  api.test.UserTests - ===== Starting Update User Test =====
+11:21:29.954 [main] INFO  api.test.UserTests - Updating user details...
+11:21:32.312 [main] INFO  api.test.UserTests - PUT Response Code: 200
+11:21:32.327 [main] INFO  api.test.UserTests - User updated successfully. Validating updated data...
+11:21:33.594 [main] INFO  api.test.UserTests - Updated user verified successfully.
+11:21:33.594 [main] INFO  api.test.UserTests - ===== Update User Test Completed =====
+11:21:33.594 [main] INFO  api.test.UserTests - ===== Starting Delete User Test =====
+11:21:33.603 [main] INFO  api.test.UserTests - Deleting user: user97495
+11:21:34.836 [main] INFO  api.test.UserTests - DELETE Response Code: 200
+11:21:34.836 [main] INFO  api.test.UserTests - User deleted successfully.
+11:21:34.851 [main] INFO  api.test.UserTests - ===== Delete User Test Completed =====
+11:21:34.851 [main] INFO  api.test.UserTests - =================User Test Suite Finished=====================
+11:22:09.504 [main] INFO  api.test.UserTests - =================User Model Test Suite Started=====================
+11:22:09.519 [main] INFO  api.test.UserTests - ===== Initializing Test Data =====
+11:22:09.789 [main] INFO  api.test.UserTests - Generated Test User Details:-
+11:22:09.789 [main] INFO  api.test.UserTests - ID: 3943
+11:22:09.789 [main] INFO  api.test.UserTests - Username: user37010
+11:22:09.789 [main] INFO  api.test.UserTests - Email: wes.bruen@gmail.com
+11:22:09.789 [main] INFO  api.test.UserTests - ====================================
+11:22:09.804 [main] INFO  api.test.UserTests - ===== Starting Create User Test =====
+11:22:09.804 [main] INFO  api.test.UserTests - Sending POST request to create user...
+11:22:13.203 [main] INFO  api.test.UserTests - POST Response Code: 200
+11:22:13.203 [main] INFO  api.test.UserTests - User successfully created in PetStore API.
+11:22:13.203 [main] INFO  api.test.UserTests - Waiting 1 second for data persistence...
+11:22:14.213 [main] INFO  api.test.UserTests - ===== Create User Test Completed =====
+11:22:14.245 [main] INFO  api.test.UserTests - ===== Starting Get User Test =====
+11:22:14.245 [main] INFO  api.test.UserTests - Fetching User by username: user37010
+11:22:15.548 [main] INFO  api.test.UserTests - GET Response Code: 200
+11:22:15.548 [main] INFO  api.test.UserTests - User fetch successful.
+11:22:15.548 [main] INFO  api.test.UserTests - ===== Get User Test Completed =====
+11:22:15.564 [main] INFO  api.test.UserTests - ===== Starting Update User Test =====
+11:22:15.564 [main] INFO  api.test.UserTests - Updating user details...
+11:22:16.921 [main] INFO  api.test.UserTests - PUT Response Code: 200
+11:22:16.921 [main] INFO  api.test.UserTests - User updated successfully. Validating updated data...
+11:22:18.171 [main] INFO  api.test.UserTests - Updated user verified successfully.
+11:22:18.171 [main] INFO  api.test.UserTests - ===== Update User Test Completed =====
+11:22:18.171 [main] INFO  api.test.UserTests - ===== Starting Delete User Test =====
+11:22:18.185 [main] INFO  api.test.UserTests - Deleting user: user37010
+11:22:19.475 [main] INFO  api.test.UserTests - DELETE Response Code: 200
+11:22:19.475 [main] INFO  api.test.UserTests - User deleted successfully.
+11:22:19.475 [main] INFO  api.test.UserTests - ===== Delete User Test Completed =====
+11:22:19.475 [main] INFO  api.test.UserTests - =================User Test Suite Finished=====================
+16:47:11.789 [main] INFO  api.test.UserTests - =================User Model Test Suite Started=====================
+16:47:11.802 [main] INFO  api.test.UserTests - ===== Initializing Test Data =====
+16:47:12.114 [main] INFO  api.test.UserTests - Generated Test User Details:-
+16:47:12.115 [main] INFO  api.test.UserTests - ID: 8999
+16:47:12.115 [main] INFO  api.test.UserTests - Username: user30343
+16:47:12.115 [main] INFO  api.test.UserTests - Email: devon.considine@gmail.com
+16:47:12.115 [main] INFO  api.test.UserTests - ====================================
+16:47:12.145 [main] INFO  api.test.UserTests - ===== Starting Create User Test =====
+16:47:12.147 [main] INFO  api.test.UserTests - Sending POST request to create user...
+16:47:16.518 [main] INFO  api.test.UserTests - POST Response Code: 200
+16:47:16.519 [main] INFO  api.test.UserTests - User successfully created in PetStore API.
+16:47:16.519 [main] INFO  api.test.UserTests - Waiting 1 second for data persistence...
+16:47:17.528 [main] INFO  api.test.UserTests - ===== Create User Test Completed =====
+16:47:17.572 [main] INFO  api.test.UserTests - ===== Starting Get User Test =====
+16:47:17.572 [main] INFO  api.test.UserTests - Fetching User by username: user30343
+16:47:19.580 [main] INFO  api.test.UserTests - GET Response Code: 200
+16:47:19.582 [main] INFO  api.test.UserTests - User fetch successful.
+16:47:19.582 [main] INFO  api.test.UserTests - ===== Get User Test Completed =====
+16:47:19.600 [main] INFO  api.test.UserTests - ===== Starting Update User Test =====
+16:47:19.600 [main] INFO  api.test.UserTests - Updating user details...
+16:47:21.420 [main] INFO  api.test.UserTests - PUT Response Code: 200
+16:47:21.421 [main] INFO  api.test.UserTests - User updated successfully. Validating updated data...
+16:47:23.264 [main] INFO  api.test.UserTests - Updated user verified successfully.
+16:47:23.264 [main] INFO  api.test.UserTests - ===== Update User Test Completed =====
+16:47:23.273 [main] INFO  api.test.UserTests - ===== Starting Delete User Test =====
+16:47:23.274 [main] INFO  api.test.UserTests - Deleting user: user30343
+16:47:24.901 [main] INFO  api.test.UserTests - DELETE Response Code: 200
+16:47:24.901 [main] INFO  api.test.UserTests - User deleted successfully.
+16:47:24.902 [main] INFO  api.test.UserTests - ===== Delete User Test Completed =====
+16:47:24.902 [main] INFO  api.test.UserTests - =================User Test Suite Finished=====================
+10:13:39.765 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+10:13:39.770 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+10:13:40.201 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+10:13:40.202 [main] INFO  api.test.UserTestsProperties - ID: 2767
+10:13:40.204 [main] INFO  api.test.UserTestsProperties - Username: user62065
+10:13:40.206 [main] INFO  api.test.UserTestsProperties - Email: paris.murphy@gmail.com
+10:13:40.206 [main] INFO  api.test.UserTestsProperties - ====================================
+10:13:40.230 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+10:13:40.231 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+10:13:44.042 [main] INFO  api.test.UserTestsProperties - POST Response Code: 403
+10:13:44.086 [main] INFO  api.test.UserTestsProperties - ===== Starting Get User Test =====
+10:13:44.086 [main] INFO  api.test.UserTestsProperties - Fetching User by username: user62065
+10:13:44.190 [main] INFO  api.test.UserTestsProperties - ===== Starting Update User Test =====
+10:13:44.190 [main] INFO  api.test.UserTestsProperties - Updating user details...
+10:13:44.219 [main] INFO  api.test.UserTestsProperties - ===== Starting Delete User Test =====
+10:13:44.220 [main] INFO  api.test.UserTestsProperties - Deleting user: user62065
+17:12:46.027 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+17:12:46.031 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+17:12:46.361 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+17:12:46.363 [main] INFO  api.test.UserTestsProperties - ID: 3185
+17:12:46.363 [main] INFO  api.test.UserTestsProperties - Username: user21706
+17:12:46.365 [main] INFO  api.test.UserTestsProperties - Email: maxwell.kunde@gmail.com
+17:12:46.365 [main] INFO  api.test.UserTestsProperties - ====================================
+17:12:46.395 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+17:12:46.397 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+17:12:49.898 [main] INFO  api.test.UserTestsProperties - POST Response Code: 403
+17:16:45.372 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+17:16:45.376 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+17:16:45.687 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+17:16:45.687 [main] INFO  api.test.UserTestsProperties - ID: 5503
+17:16:45.688 [main] INFO  api.test.UserTestsProperties - Username: user04874
+17:16:45.688 [main] INFO  api.test.UserTestsProperties - Email: evan.brown@hotmail.com
+17:16:45.689 [main] INFO  api.test.UserTestsProperties - ====================================
+17:16:45.709 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+17:16:45.709 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+17:16:49.389 [main] INFO  api.test.UserTestsProperties - POST Response Code: 403
+17:23:51.894 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+17:23:51.897 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+17:23:52.212 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+17:23:52.213 [main] INFO  api.test.UserTestsProperties - ID: 5624
+17:23:52.214 [main] INFO  api.test.UserTestsProperties - Username: user38185
+17:23:52.215 [main] INFO  api.test.UserTestsProperties - Email: wilbert.buckridge@hotmail.com
+17:23:52.216 [main] INFO  api.test.UserTestsProperties - ====================================
+17:23:52.246 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+17:23:52.246 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+17:23:55.956 [main] INFO  api.test.UserTestsProperties - POST Response Code: 404
+17:26:07.722 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+17:26:07.726 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+17:26:07.961 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+17:26:07.962 [main] INFO  api.test.UserTestsProperties - ID: 2022
+17:26:07.963 [main] INFO  api.test.UserTestsProperties - Username: user36683
+17:26:07.964 [main] INFO  api.test.UserTestsProperties - Email: alyson.kuhlman@yahoo.com
+17:26:07.964 [main] INFO  api.test.UserTestsProperties - ====================================
+17:26:07.988 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+17:26:07.990 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+17:26:11.419 [main] INFO  api.test.UserTestsProperties - POST Response Code: 200
+17:26:11.421 [main] INFO  api.test.UserTestsProperties - User successfully created in PetStore API.
+17:26:11.422 [main] INFO  api.test.UserTestsProperties - Waiting 1 second for data persistence...
+17:26:12.428 [main] INFO  api.test.UserTestsProperties - ===== Create User Test Completed =====
+17:33:36.059 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+17:33:36.059 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+17:33:36.337 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+17:33:36.337 [main] INFO  api.test.UserTestsProperties - ID: 9889
+17:33:36.337 [main] INFO  api.test.UserTestsProperties - Username: user25077
+17:33:36.337 [main] INFO  api.test.UserTestsProperties - Email: tyrone.lakin@yahoo.com
+17:33:36.337 [main] INFO  api.test.UserTestsProperties - ====================================
+17:33:36.352 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+17:33:36.352 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+17:33:40.176 [main] INFO  api.test.UserTestsProperties - POST Response Code: 200
+17:33:40.192 [main] INFO  api.test.UserTestsProperties - User successfully created in PetStore API.
+17:33:40.192 [main] INFO  api.test.UserTestsProperties - Waiting 1 second for data persistence...
+17:33:52.823 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+17:33:52.838 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+17:33:53.045 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+17:33:53.045 [main] INFO  api.test.UserTestsProperties - ID: 2697
+17:33:53.045 [main] INFO  api.test.UserTestsProperties - Username: user22330
+17:33:53.045 [main] INFO  api.test.UserTestsProperties - Email: gilberto.cummerata@gmail.com
+17:33:53.045 [main] INFO  api.test.UserTestsProperties - ====================================
+17:33:53.076 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+17:33:53.076 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+17:33:56.352 [main] INFO  api.test.UserTestsProperties - POST Response Code: 200
+17:33:56.352 [main] INFO  api.test.UserTestsProperties - User successfully created in PetStore API.
+17:33:56.352 [main] INFO  api.test.UserTestsProperties - Waiting 1 second for data persistence...
+17:33:57.368 [main] INFO  api.test.UserTestsProperties - ===== Create User Test Completed =====
+17:33:57.384 [main] INFO  api.test.UserTestsProperties - ===== Starting Get User Test =====
+17:33:57.384 [main] INFO  api.test.UserTestsProperties - Fetching User by username: user22330
+17:33:58.617 [main] INFO  api.test.UserTestsProperties - GET Response Code: 200
+17:33:58.617 [main] INFO  api.test.UserTestsProperties - User fetch successful.
+17:33:58.617 [main] INFO  api.test.UserTestsProperties - ===== Get User Test Completed =====
+17:33:58.638 [main] INFO  api.test.UserTestsProperties - ===== Starting Update User Test =====
+17:33:58.638 [main] INFO  api.test.UserTestsProperties - Updating user details...
+17:33:59.844 [main] INFO  api.test.UserTestsProperties - PUT Response Code: 200
+17:33:59.844 [main] INFO  api.test.UserTestsProperties - User updated successfully. Validating updated data...
+17:34:01.018 [main] INFO  api.test.UserTestsProperties - Updated user verified successfully.
+17:34:01.033 [main] INFO  api.test.UserTestsProperties - ===== Update User Test Completed =====
+17:34:01.033 [main] INFO  api.test.UserTestsProperties - ===== Starting Delete User Test =====
+17:34:01.033 [main] INFO  api.test.UserTestsProperties - Deleting user: user22330
+17:34:02.271 [main] INFO  api.test.UserTestsProperties - DELETE Response Code: 200
+17:34:02.271 [main] INFO  api.test.UserTestsProperties - User deleted successfully.
+17:34:02.271 [main] INFO  api.test.UserTestsProperties - ===== Delete User Test Completed =====
+17:34:02.271 [main] INFO  api.test.UserTestsProperties - =================User Test Suite Finished=====================
+18:24:47.118 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+18:24:47.121 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+18:24:47.426 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+18:24:47.427 [main] INFO  api.test.UserTestsProperties - ID: 4279
+18:24:47.427 [main] INFO  api.test.UserTestsProperties - Username: user27309
+18:24:47.427 [main] INFO  api.test.UserTestsProperties - Email: katheryn.davis@yahoo.com
+18:24:47.427 [main] INFO  api.test.UserTestsProperties - ====================================
+18:24:47.458 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+18:24:47.458 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+18:24:51.502 [main] INFO  api.test.UserTestsProperties - POST Response Code: 200
+18:24:51.507 [main] INFO  api.test.UserTestsProperties - User successfully created in PetStore API.
+18:24:51.507 [main] INFO  api.test.UserTestsProperties - Waiting 1 second for data persistence...
+18:24:52.521 [main] INFO  api.test.UserTestsProperties - ===== Create User Test Completed =====
+18:24:52.559 [main] INFO  api.test.UserTestsProperties - ===== Starting Get User Test =====
+18:24:52.561 [main] INFO  api.test.UserTestsProperties - Fetching User by username: user27309
+18:24:53.829 [main] INFO  api.test.UserTestsProperties - GET Response Code: 200
+18:24:53.830 [main] INFO  api.test.UserTestsProperties - User fetch successful.
+18:24:53.830 [main] INFO  api.test.UserTestsProperties - ===== Get User Test Completed =====
+18:24:53.834 [main] INFO  api.test.UserTestsProperties - ===== Starting Update User Test =====
+18:24:53.834 [main] INFO  api.test.UserTestsProperties - Updating user details...
+18:24:55.056 [main] INFO  api.test.UserTestsProperties - PUT Response Code: 200
+18:24:55.056 [main] INFO  api.test.UserTestsProperties - User updated successfully. Validating updated data...
+18:24:56.276 [main] INFO  api.test.UserTestsProperties - Updated user verified successfully.
+18:24:56.276 [main] INFO  api.test.UserTestsProperties - ===== Update User Test Completed =====
+18:24:56.279 [main] INFO  api.test.UserTestsProperties - ===== Starting Delete User Test =====
+18:24:56.279 [main] INFO  api.test.UserTestsProperties - Deleting user: user27309
+18:24:57.512 [main] INFO  api.test.UserTestsProperties - DELETE Response Code: 200
+18:24:57.512 [main] INFO  api.test.UserTestsProperties - User deleted successfully.
+18:24:57.513 [main] INFO  api.test.UserTestsProperties - ===== Delete User Test Completed =====
+18:24:57.513 [main] INFO  api.test.UserTestsProperties - =================User Test Suite Finished=====================
+18:31:23.306 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+18:31:23.310 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+18:31:23.540 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+18:31:23.540 [main] INFO  api.test.UserTestsProperties - ID: 6098
+18:31:23.540 [main] INFO  api.test.UserTestsProperties - Username: user71311
+18:31:23.540 [main] INFO  api.test.UserTestsProperties - Email: greg.sanford@yahoo.com
+18:31:23.540 [main] INFO  api.test.UserTestsProperties - ====================================
+18:31:23.558 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+18:31:23.561 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+18:31:27.195 [main] INFO  api.test.UserTestsProperties - POST Response Code: 200
+18:31:27.198 [main] INFO  api.test.UserTestsProperties - User successfully created in PetStore API.
+18:31:27.198 [main] INFO  api.test.UserTestsProperties - Waiting 1 second for data persistence...
+18:31:28.200 [main] INFO  api.test.UserTestsProperties - ===== Create User Test Completed =====
+18:31:28.230 [main] INFO  api.test.UserTestsProperties - ===== Starting Get User Test =====
+18:31:28.231 [main] INFO  api.test.UserTestsProperties - Fetching User by username: user71311
+18:31:29.474 [main] INFO  api.test.UserTestsProperties - GET Response Code: 200
+18:31:29.475 [main] INFO  api.test.UserTestsProperties - User fetch successful.
+18:31:29.475 [main] INFO  api.test.UserTestsProperties - ===== Get User Test Completed =====
+18:31:29.481 [main] INFO  api.test.UserTestsProperties - ===== Starting Update User Test =====
+18:31:29.482 [main] INFO  api.test.UserTestsProperties - Updating user details...
+18:31:30.709 [main] INFO  api.test.UserTestsProperties - PUT Response Code: 200
+18:31:30.709 [main] INFO  api.test.UserTestsProperties - User updated successfully. Validating updated data...
+18:31:32.363 [main] INFO  api.test.UserTestsProperties - Updated user verified successfully.
+18:31:32.364 [main] INFO  api.test.UserTestsProperties - ===== Update User Test Completed =====
+18:31:32.366 [main] INFO  api.test.UserTestsProperties - ===== Starting Delete User Test =====
+18:31:32.367 [main] INFO  api.test.UserTestsProperties - Deleting user: user71311
+18:31:33.606 [main] INFO  api.test.UserTestsProperties - DELETE Response Code: 200
+18:31:33.607 [main] INFO  api.test.UserTestsProperties - User deleted successfully.
+18:31:33.607 [main] INFO  api.test.UserTestsProperties - ===== Delete User Test Completed =====
+18:31:33.608 [main] INFO  api.test.UserTestsProperties - =================User Test Suite Finished=====================
+18:43:52.671 [main] INFO  api.test.UserTestsProperties - =================User Model Test Suite Started=====================
+18:43:52.674 [main] INFO  api.test.UserTestsProperties - ===== Initializing Test Data =====
+18:43:52.919 [main] INFO  api.test.UserTestsProperties - Generated Test User Details:-
+18:43:52.919 [main] INFO  api.test.UserTestsProperties - ID: 1013
+18:43:52.920 [main] INFO  api.test.UserTestsProperties - Username: user47947
+18:43:52.920 [main] INFO  api.test.UserTestsProperties - Email: lakeesha.purdy@yahoo.com
+18:43:52.920 [main] INFO  api.test.UserTestsProperties - ====================================
+18:43:52.946 [main] INFO  api.test.UserTestsProperties - ===== Starting Create User Test =====
+18:43:52.947 [main] INFO  api.test.UserTestsProperties - Sending POST request to create user...
+18:43:56.933 [main] INFO  api.test.UserTestsProperties - POST Response Code: 200
+18:43:56.936 [main] INFO  api.test.UserTestsProperties - User successfully created in PetStore API.
+18:43:56.937 [main] INFO  api.test.UserTestsProperties - Waiting 1 second for data persistence...
+18:43:57.945 [main] INFO  api.test.UserTestsProperties - ===== Create User Test Completed =====
+18:43:57.986 [main] INFO  api.test.UserTestsProperties - ===== Starting Get User Test =====
+18:43:57.986 [main] INFO  api.test.UserTestsProperties - Fetching User by username: user47947
+18:43:59.227 [main] INFO  api.test.UserTestsProperties - GET Response Code: 200
+18:43:59.227 [main] INFO  api.test.UserTestsProperties - User fetch successful.
+18:43:59.227 [main] INFO  api.test.UserTestsProperties - ===== Get User Test Completed =====
+18:43:59.235 [main] INFO  api.test.UserTestsProperties - ===== Starting Update User Test =====
+18:43:59.235 [main] INFO  api.test.UserTestsProperties - Updating user details...
+18:44:00.461 [main] INFO  api.test.UserTestsProperties - PUT Response Code: 200
+18:44:00.462 [main] INFO  api.test.UserTestsProperties - User updated successfully. Validating updated data...
+18:44:01.705 [main] INFO  api.test.UserTestsProperties - Updated user verified successfully.
+18:44:01.707 [main] INFO  api.test.UserTestsProperties - ===== Update User Test Completed =====
+18:44:01.723 [main] INFO  api.test.UserTestsProperties - ===== Starting Delete User Test =====
+18:44:01.727 [main] INFO  api.test.UserTestsProperties - Deleting user: user47947
+18:44:02.965 [main] INFO  api.test.UserTestsProperties - DELETE Response Code: 200
+18:44:02.965 [main] INFO  api.test.UserTestsProperties - User deleted successfully.
+18:44:02.966 [main] INFO  api.test.UserTestsProperties - ===== Delete User Test Completed =====
+18:44:02.966 [main] INFO  api.test.UserTestsProperties - =================User Test Suite Finished=====================
