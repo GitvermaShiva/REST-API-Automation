@@ -2,43 +2,51 @@
 
 <Configuration status="WARN">
 
-    <!-- Global Properties -->
     <Properties>
+
+        <!-- Log Folder -->
         <Property name="basePath">./Logs</Property>
+
+        <!-- Timestamp -->
+        <Property name="logFileName">
+            automation-${date:yyyy-MM-dd-HH-mm-ss}
+        </Property>
+
     </Properties>
 
-    <!-- Appenders -->
     <Appenders>
 
         <!-- Console Logging -->
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <PatternLayout
+                    pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
 
-        <!-- File Logging (Rolling File) -->
+        <!-- Separate Log File Per Execution -->
         <RollingFile
                 name="File"
-                fileName="${basePath}/automation.log"
-                filePattern="${basePath}/automation-%d{yyyy-MM-dd-HH-mm-ss}.log.gz">
+                fileName="${basePath}/${logFileName}.log"
+                filePattern="${basePath}/${logFileName}-%i.log.gz">
 
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <PatternLayout
+                    pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
 
-            <!-- Rotate on 50 MB -->
-            <SizeBasedTriggeringPolicy size="50MB"/>
+            <!-- Rotate after 50 MB -->
+            <Policies>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
 
-            <!-- Keep max 10 log files -->
+            <!-- Keep 10 backup files -->
             <DefaultRolloverStrategy max="10"/>
+
         </RollingFile>
 
     </Appenders>
 
-
-    <!-- Loggers -->
     <Loggers>
 
-        <!-- Root Logger -->
         <Root level="info">
-            <AppenderRef ref="Console"/>
+<!--            <AppenderRef ref="Console"/>-->
             <AppenderRef ref="File"/>
         </Root>
 

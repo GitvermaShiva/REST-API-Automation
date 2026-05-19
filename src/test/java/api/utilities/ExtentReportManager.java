@@ -27,8 +27,8 @@ public class ExtentReportManager implements ITestListener {
         repName = "Test-Report-" + timeStamp + ".html";
 
         sparkReporter = new ExtentSparkReporter("./Reports/" + repName);
-        sparkReporter.config().setDocumentTitle("RestAssured Automation Report");
-        sparkReporter.config().setReportName("Pet Store Users API");
+        sparkReporter.config().setDocumentTitle("Petstore API Automation Report");
+        sparkReporter.config().setReportName("Pet Store Users APIs Testing");
         sparkReporter.config().setTheme(Theme.DARK);
 
         extent = new ExtentReports();
@@ -39,7 +39,7 @@ public class ExtentReportManager implements ITestListener {
         extent.setSystemInfo("Operating System", System.getProperty("os.name"));
         extent.setSystemInfo("User Name", System.getProperty("user.name"));
         extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("Tester", "Pavan");
+        extent.setSystemInfo("Tester", "Shivam Verma");
     }
 
     @Override

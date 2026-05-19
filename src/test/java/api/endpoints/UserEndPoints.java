@@ -11,6 +11,7 @@ import static io.restassured.RestAssured.given;
 public class UserEndPoints  {
 
     public static Response createUser(User payload){
+
         Response res=given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
@@ -23,6 +24,7 @@ public class UserEndPoints  {
     }
 
     public static Response getUser(String username){
+
         Response res=given()
                 .pathParam("username",username)
 
@@ -33,6 +35,7 @@ public class UserEndPoints  {
     }
 
     public static Response updateUser(String username, User payload){
+
         Response res=given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
@@ -46,6 +49,7 @@ public class UserEndPoints  {
     }
 
     public static Response deleteUser(String username){
+
         Response res=given()
                 .pathParam("username",username)
 

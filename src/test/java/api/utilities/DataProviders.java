@@ -24,22 +24,4 @@ public class DataProviders {
         return data;
     }
 
-    /*
-    @DataProvider(name = "Usernames")
-    public String[] getUserNames() throws Exception {
-
-        String excelPath = "./testData/userData.xlsx"; // location of Excel
-        String sheetName = "Sheet1";
-
-        int rowCount = ExcelUtility.getRowCount(excelPath, sheetName);
-
-        String[] data = new String[rowCount];
-
-        for (int i = 1; i <= rowCount; i++) {
-                data[i - 1] = ExcelUtility.getCellData(excelPath, sheetName, i);
-        }
-
-        return data;
-    }
-    */
 }
