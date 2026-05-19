@@ -1,4 +1,4 @@
-package api.test;
+package api.testCases;
 
 import api.endpoints.UserEndPoints;
 import api.payload.User;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import api.utilities.DataProviders;
 
-public class DataDrivenTests {
+public class TS01_UserTestsDataDrivenTests {
 
     @Test(priority = 1, dataProvider = "UserDataFromExcel", dataProviderClass = DataProviders.class)
     public void testPostUser(String userID, String userName, String fName, String lName, String eml, String ph) throws InterruptedException {
@@ -24,14 +24,9 @@ public class DataDrivenTests {
 
         Response res = UserEndPoints.createUser(userPayload);
         res.then().log().all();
+
         Assert.assertEquals(res.getStatusCode(), 200);
-
-        Thread.sleep(1000); // FIX: allow Petstore to store user
+        Thread.sleep(1000); // FIX: Allow Petstore to store user
     }
 
-    //@Test(priority = 2, dataProvider = "Usernames", dataProviderClass = DataProviders.class)
-    public void testDeleteUserByName(String userName){
-        Response res=UserEndPoints.deleteUser(userName);
-        Assert.assertEquals(res.getStatusCode(),200);
-    }
 }

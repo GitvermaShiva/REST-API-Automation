@@ -1,4 +1,4 @@
-package api.test;
+package api.testCases;
 
 import api.endpoints.UserEndPoints;
 import api.payload.User;
@@ -11,12 +11,12 @@ import org.testng.annotations.Test;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class UserTests {
+public class TS01_UserTests {
 
     Faker fake;
     User userPayload;
 
-    private static final Logger logger = LogManager.getLogger(UserTests.class);
+    private static final Logger logger = LogManager.getLogger(TS01_UserTests.class);
 
     @BeforeClass
     public void setup() {
@@ -41,9 +41,7 @@ public class UserTests {
         logger.info("====================================");
     }
 
-    // ========================================================
     // Create User
-    // ========================================================
     @Test(priority = 1)
     public void testPostUser() throws InterruptedException {
 
@@ -64,9 +62,7 @@ public class UserTests {
         logger.info("===== Create User Test Completed =====");
     }
 
-    // ========================================================
     // Get User
-    // ========================================================
     @Test(priority = 2)
     public void testGetUserByName() {
 
@@ -83,9 +79,7 @@ public class UserTests {
         logger.info("===== Get User Test Completed =====");
     }
 
-    // ========================================================
     // Update User
-    // ========================================================
     @Test(priority = 3)
     public void testUpdateUserByName() {
 
@@ -115,9 +109,7 @@ public class UserTests {
         logger.info("===== Update User Test Completed =====");
     }
 
-    // ========================================================
     // Delete User
-    // ========================================================
     @Test(priority = 4)
     public void testDeleteUserByName() {
 
