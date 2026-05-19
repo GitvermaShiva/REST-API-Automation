@@ -1,0 +1,30 @@
+16:06:36.612 [main] INFO  api.testCases.TS01_UserTests - =================User Model Test Suite Started=====================
+16:06:36.615 [main] INFO  api.testCases.TS01_UserTests - ===== Initializing Test Data =====
+16:06:36.887 [main] INFO  api.testCases.TS01_UserTests - Generated Test User Details:-
+16:06:36.887 [main] INFO  api.testCases.TS01_UserTests - ID: 4684
+16:06:36.887 [main] INFO  api.testCases.TS01_UserTests - Username: user52225
+16:06:36.887 [main] INFO  api.testCases.TS01_UserTests - Email: loraine.mante@hotmail.com
+16:06:36.888 [main] INFO  api.testCases.TS01_UserTests - ====================================
+16:06:36.909 [main] INFO  api.testCases.TS01_UserTests - ===== Starting Create User Test =====
+16:06:36.910 [main] INFO  api.testCases.TS01_UserTests - Sending POST request to create user...
+16:06:40.889 [main] INFO  api.testCases.TS01_UserTests - POST Response Code: 200
+16:06:40.890 [main] INFO  api.testCases.TS01_UserTests - User successfully created in PetStore API.
+16:06:40.891 [main] INFO  api.testCases.TS01_UserTests - Waiting 1 second for data persistence...
+16:06:41.892 [main] INFO  api.testCases.TS01_UserTests - ===== Create User Test Completed =====
+16:06:41.923 [main] INFO  api.testCases.TS01_UserTests - ===== Starting Get User Test =====
+16:06:41.923 [main] INFO  api.testCases.TS01_UserTests - Fetching User by username: user52225
+16:06:43.292 [main] INFO  api.testCases.TS01_UserTests - GET Response Code: 200
+16:06:43.292 [main] INFO  api.testCases.TS01_UserTests - User fetch successful.
+16:06:43.292 [main] INFO  api.testCases.TS01_UserTests - ===== Get User Test Completed =====
+16:06:43.300 [main] INFO  api.testCases.TS01_UserTests - ===== Starting Update User Test =====
+16:06:43.300 [main] INFO  api.testCases.TS01_UserTests - Updating user details...
+16:06:44.705 [main] INFO  api.testCases.TS01_UserTests - PUT Response Code: 200
+16:06:44.706 [main] INFO  api.testCases.TS01_UserTests - User updated successfully. Validating updated data...
+16:06:46.098 [main] INFO  api.testCases.TS01_UserTests - Updated user verified successfully.
+16:06:46.098 [main] INFO  api.testCases.TS01_UserTests - ===== Update User Test Completed =====
+16:06:46.102 [main] INFO  api.testCases.TS01_UserTests - ===== Starting Delete User Test =====
+16:06:46.102 [main] INFO  api.testCases.TS01_UserTests - Deleting user: user52225
+16:06:47.527 [main] INFO  api.testCases.TS01_UserTests - DELETE Response Code: 200
+16:06:47.528 [main] INFO  api.testCases.TS01_UserTests - User deleted successfully.
+16:06:47.528 [main] INFO  api.testCases.TS01_UserTests - ===== Delete User Test Completed =====
+16:06:47.528 [main] INFO  api.testCases.TS01_UserTests - =================User Test Suite Finished=====================
