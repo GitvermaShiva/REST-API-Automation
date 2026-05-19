@@ -11,9 +11,8 @@
 
         <classes>
 
-            <!-- <class name="api.test.UserTests" />-->
-            <!-- <class name="api.test.DataDrivenTests" /> -->
-            <class name="api.test.UserTestsProperties" />
+            <class name="api.testCases.TS01_UserTests" />
+<!--            <class name="api.testCases.TS01_UserTestsDataDrivenTests" />-->
 
         </classes> 
     </test>
